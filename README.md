@@ -12,7 +12,7 @@ case 'shiroko': {
 
     let random = urls[Math.floor(Math.random() * urls.length)];
     base.sendMessage(m.chat, {
-      image: { url: random }
+      image: { url: random } 
     }, { quoted: m });
   } catch (err) {
     console.error(err);
